@@ -23,9 +23,9 @@ define( 'NONCE_SALT',       $_ENV['WP_NONCE_SALT']);
 define( 'WP_DEBUG', false );
 
 // Stateless 
-define( 'DISALLOW_FILE_MODS', true );
-define( 'AUTOMATIC_UPDATER_DISABLED', true );
-define( 'WP_AUTO_UPDATE_CORE', false );
+// define( 'DISALLOW_FILE_MODS', true );
+// define( 'AUTOMATIC_UPDATER_DISABLED', true );
+// define( 'WP_AUTO_UPDATE_CORE', false );
 
 // Reverse Proxy
 if ( strpos( $_SERVER['HTTP_X_FORWARDED_PROTO'], 'https' ) !== false ) {
