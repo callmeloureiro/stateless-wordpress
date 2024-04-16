@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
 
 env:
-  HUB_USER: gioamato
-  REPO_NAME: stateless-wordpress
-  IMAGE_TAG: wordpress-alpine
+  HUB_USER: callmeloureiro
+  REPO_NAME: wordpress
+  IMAGE_TAG: wordpress
   
 jobs:
   build:
