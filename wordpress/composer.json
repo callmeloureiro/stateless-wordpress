@@ -3,9 +3,12 @@
   "description": "Stateless WordPress (K8s Ready)",
   "repositories": [
     {
-      "type":"composer",
-      "url":"https://wpackagist.org",
-      "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+      "type": "composer",
+      "url": "https://wpackagist.org",
+      "only": [
+        "wpackagist-plugin/*",
+        "wpackagist-theme/*"
+      ]
     }
   ],
   "config": {
@@ -18,14 +21,14 @@
   "require": {
     "inpsyde/wp-translation-downloader": "^2.0",
     "wpackagist-plugin/nginx-cache": "1.0.5",
-    "wpackagist-plugin/windows-azure-storage": "4.3.2",
-    "wpackagist-plugin/wp-stateless": "3.1.0",
     "wpackagist-plugin/all-in-one-wp-migration": "7.81",
     "wpackagist-theme/twentytwentytwo": "1.1"
   },
   "extra": {
     "wp-translation-downloader": {
-      "languages": [ "pt_BR" ],
+      "languages": [
+        "pt_BR"
+      ],
       "languageRootDir": "wp-content/languages",
       "virtual-packages": [
         {

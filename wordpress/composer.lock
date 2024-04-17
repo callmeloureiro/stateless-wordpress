@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f0832e58cd68aca590a67b7be4c9abcc",
+    "content-hash": "891a6f79eb967d3210fa7e872f1b0f69",
     "packages": [
         {
             "name": "composer/installers",
@@ -153,16 +153,16 @@
         },
         {
             "name": "inpsyde/wp-translation-downloader",
-            "version": "2.3",
+            "version": "2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/inpsyde/wp-translation-downloader.git",
-                "reference": "2539fd343a5540871f15a9c9b0dd569a759f26b0"
+                "reference": "623b060cfc22210c8599d14a2eafa1e0bec53df1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inpsyde/wp-translation-downloader/zipball/2539fd343a5540871f15a9c9b0dd569a759f26b0",
-                "reference": "2539fd343a5540871f15a9c9b0dd569a759f26b0",
+                "url": "https://api.github.com/repos/inpsyde/wp-translation-downloader/zipball/623b060cfc22210c8599d14a2eafa1e0bec53df1",
+                "reference": "623b060cfc22210c8599d14a2eafa1e0bec53df1",
                 "shasum": ""
             },
             "require": {
@@ -203,9 +203,27 @@
             "description": "Composer plugin to download translations from wordpress.org API.",
             "support": {
                 "issues": "https://github.com/inpsyde/wp-translation-downloader/issues",
-                "source": "https://github.com/inpsyde/wp-translation-downloader/tree/2.3"
+                "source": "https://github.com/inpsyde/wp-translation-downloader/tree/2.5"
             },
-            "time": "2022-06-22T07:49:21+00:00"
+            "time": "2023-04-14T08:49:43+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/all-in-one-wp-migration",
+            "version": "7.81",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/all-in-one-wp-migration/",
+                "reference": "tags/7.81"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.81.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/all-in-one-wp-migration/"
         },
         {
             "name": "wpackagist-plugin/nginx-cache",
@@ -224,42 +242,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/nginx-cache/"
-        },
-        {
-            "name": "wpackagist-plugin/windows-azure-storage",
-            "version": "4.3.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/windows-azure-storage/",
-                "reference": "tags/4.3.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/windows-azure-storage.4.3.2.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/windows-azure-storage/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-stateless",
-            "version": "3.1.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-stateless/",
-                "reference": "tags/3.1.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-stateless.3.1.0.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-stateless/"
         },
         {
             "name": "wpackagist-theme/twentytwentytwo",
@@ -288,5 +270,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
