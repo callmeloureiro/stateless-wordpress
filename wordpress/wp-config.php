@@ -22,6 +22,9 @@ define( 'NONCE_SALT',       $_ENV['WP_NONCE_SALT']);
 // Debug
 define( 'WP_DEBUG', false );
 
+// Language
+define ('WPLANG', 'pt_BR');
+
 // Stateless 
 // define( 'DISALLOW_FILE_MODS', true );
 // define( 'AUTOMATIC_UPDATER_DISABLED', true );
