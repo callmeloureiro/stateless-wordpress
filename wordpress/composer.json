@@ -24,7 +24,7 @@
   },
   "extra": {
     "wp-translation-downloader": {
-      "languages": [ "it_IT" ],
+      "languages": [ "pt_BR" ],
       "languageRootDir": "wp-content/languages",
       "virtual-packages": [
         {
